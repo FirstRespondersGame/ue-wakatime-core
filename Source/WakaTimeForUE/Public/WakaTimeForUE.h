@@ -140,7 +140,7 @@ public:
 		TEXT("WakatimeEditor"),
 		NSLOCTEXT("Wakatime", "WakatimeEditor", "Wakatime Plugin"),
 		NAME_None,
-		FEditorStyle::GetStyleSetName()
+		FAppStyle::GetAppStyleSetName()
 	) { }
 
 	/// <summary>
